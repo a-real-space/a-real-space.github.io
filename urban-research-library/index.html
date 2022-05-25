@@ -44,7 +44,7 @@
       <div class="page-container padding-top padding-bottom padding-side margin-top margin-bottom">
 
         {% for i in themes %}
-          <div class="col-33 col-float-left col-content padding-side">
+          <div class="col-33 col-float-left col-content padding-side padding-top padding-bottom">
             <p class="project-title block bold-weight text-align-left">{{i}}</p>
             <p class="project-description block thin-weight text-align-left">
               {% assign items_in_library = site.library | where_exp: "item", "item.theme contains i" %}
@@ -74,9 +74,10 @@
       <div class="page-container padding-top padding-bottom padding-side margin-bottom">
         <div class="col-50 col-float-middle col-content">
           <p class="content-title block extra-bold-weight text-align-left">support</p>
-          <p class="content-description thin-weight text-align-left">If you are interested in supporting this initiative or donating or lending books, get in touch. Also feel free to join <a href="https://lu.ma/a_real_space" target="_blank">A Real Space Community</a> for further updates on ways to support this initiative.</p> 
+          <p class="content-description thin-weight text-align-left">If you are interested in supporting The Urban Research Library or lending or donating books, get in touch. We will be following, shortly, with other ways to support it. Join <a href="https://lu.ma/a_real_space" target="_blank">A Real Space Community</a> on lu.ma for updates.</p> 
         </div>
       </div>
+
 
 
 
