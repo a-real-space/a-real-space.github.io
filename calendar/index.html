@@ -1,0 +1,50 @@
+---
+---
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8"/>
+    <title>Calendar</title>
+    <link rel="stylesheet" href="../assets/style/default.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+  </head>
+
+  <body>
+    <span class="corner-nav-tc-title corner-nav noselect">Calendar:</span>
+    <span class="corner-nav-tl corner-nav noselect">
+          <a class="" href="../">A Real Space.</a>
+    </span>
+    <a href="../" class="active corner-nav-tr-x corner-nav noselect">&#x2715;</a>
+    <span class="corner-nav-bl corner-nav noselect">
+      <a class="" href="{{site.baseurl}}/info">Info</a> &nbsp;&nbsp;
+      <a class="" href="{{site.baseurl}}/agenda">Agenda</a> &nbsp;&nbsp;
+    </span>
+    <span class="corner-nav-br corner-nav noselect">
+      <a href="https://twitter.com/spinunit" target="_blank">Twitter &#8599;&#xFE0E;</a> &nbsp;&nbsp;
+      <a href="https://www.instagram.com/spinunit" target="_blank">Instagram &#8599;&#xFE0E;</a>
+    </span>
+
+    <div class="default-content">
+      <div class="page-container padding-top padding-bottom padding-side margin-top margin-bottom">
+          {% assign sorted = site.events | reverse %}
+          {% assign i = 0 %}
+          {% for event in sorted %}
+          <div class="col-33 col-float-left project-grid-cell" id="{{event.id}}">
+            <a href="{{event.url}}"><img class="block" src="{{site.baseurl}}{{event.thumbnail}}"></a>
+            <p class="project-title"><a href="{{event.url}}">{{event.title}} </a></p>
+            <p class="project-description">{{event.description}}</p>
+            <p class="project-sub-description">{{event.display-date}}</p>
+          </div>
+          {% endfor %}
+      </div>
+    </div>
+
+
+  </body>
+
+</html>
