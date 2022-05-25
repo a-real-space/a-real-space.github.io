@@ -55,9 +55,6 @@ body::-webkit-scrollbar {
 
 
 
-
-
-
 /* HOME */
 .first-image {
     max-width: 20vw;
@@ -425,6 +422,16 @@ body::-webkit-scrollbar {
 
 .borrowed {
     text-decoration: line-through;
+}
+
+p > a {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+p > a:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 
