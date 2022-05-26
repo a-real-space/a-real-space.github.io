@@ -372,8 +372,11 @@ body::-webkit-scrollbar {
 
 .psuedo-list {
   text-decoration: none;
-  color: #fff;
   font-weight: 200;
+  color: #fff;
+  margin-bottom: 0.25rem;
+  font-size: 0.8rem;
+  line-height: normal;
 }
 
 .psuedo-list:hover {
@@ -388,8 +391,11 @@ body::-webkit-scrollbar {
 
 .psuedo-list-no-highlight {
   text-decoration: none;
-  color: #fff;
   font-weight: 200;
+  color: #fff;
+  margin-bottom: 0.25rem;
+  font-size: 0.8rem;
+  line-height: normal;
 }
 
 .text-align-center {
@@ -450,13 +456,13 @@ p > a:hover {
     margin-block-end: 0rem;
     margin-bottom: 0.25rem;
     font-weight: 300;
-    text-transform: none;
+    text-transform: lowercase;
+    padding-bottom: 0.25rem;
 }
 
 .project-title > a {
     color: #fff;
     text-decoration: none;
-    margin-bottom: 0rem;
 }
 
 .project-title > a:hover {
@@ -497,7 +503,7 @@ p > a:hover {
 .project-grid-cell > a > img {
     float: left;
     display: block;
-    max-width:100%;
+    max-width:100x%;
     max-height:100%;
     width: auto;
     height: auto;
