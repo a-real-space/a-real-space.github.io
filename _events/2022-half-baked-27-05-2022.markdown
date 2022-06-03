@@ -1,0 +1,15 @@
+---
+layout: event
+category:
+title:  "Half-Baked Discussion"
+id: half-baked-27-05-2022
+date: 2022-05-27
+display-date: May 27, 2022
+organiser: 
+partners:
+thumbnail: /assets/img/event-thumbnails/half-baked-community-space-05-27-2022.png
+rsvp-link:
+return_path: /events
+description: On the future of urban community spaces
+display-page: false
+---
