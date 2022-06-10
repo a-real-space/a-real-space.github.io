@@ -122,7 +122,7 @@ body::-webkit-scrollbar {
 }
 
 .col-40 {
-  width: 60%;
+  width: 40%;
 }
 
 .col-50 {
@@ -210,14 +210,24 @@ body::-webkit-scrollbar {
 
 }
 
+.col-content > em {
+    display: block;
+}
+
 .col-content > img, .col-content > a > img {
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
     max-width: 100%;
     display: block;
 }
 
+.rounded {
+    border-radius: 10%;
+}
+
 
 .front-images > a > img {
+    position: absolute;
     max-width: 100%;
     max-height: 100%;
     display: block;
@@ -225,11 +235,12 @@ body::-webkit-scrollbar {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 0);
+    border-radius: 10%;
 }
 
 .default-greyed-img {
     filter: invert(0%) sepia(5%) saturate(0%) hue-rotate(328deg) brightness(95%) contrast(95%);
-    opacity: 0.15;
+    opacity: 0.8;
 }
 
 .default-greyed-img:hover {
@@ -250,13 +261,13 @@ body::-webkit-scrollbar {
     font-size: 1.2rem;
     line-height: normal;
     margin-bottom: 1.4rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .md-content > p > em {
     margin-top: 0rem;
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .md-content > p > a {
@@ -308,7 +319,7 @@ body::-webkit-scrollbar {
 .page-title-description {
     font-size: 1.4rem;
     line-height: normal;
-    font-weight: 200;
+    font-weight: 300;
     margin-bottom: 1.5rem;
     text-transform: none;
 }
@@ -317,7 +328,7 @@ body::-webkit-scrollbar {
     text-align: left;
     font-size: 1.2rem;
     line-height: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .page-title-description-s {
@@ -325,7 +336,7 @@ body::-webkit-scrollbar {
     font-size: 1.2rem;
     line-height: normal;
     margin-bottom: 1.5rem;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: lowercase;
 }
 
@@ -334,7 +345,7 @@ body::-webkit-scrollbar {
     font-size: 1.2rem;
     line-height: normal;
     margin-bottom: 1.5rem;
-    font-weight: 100;
+    font-weight: 200;
     text-transform: lowercase;
 }
 
@@ -343,26 +354,26 @@ body::-webkit-scrollbar {
     font-size: 1.8rem;
     line-height: normal;
     margin-bottom: 0rem;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: lowercase;
 }
 
 .page-title-description > b, .page-credits > b {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .content-title {
     font-size: 2rem;
     line-height: normal;
     margin-bottom: 0.25rem;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: lowercase;
 }
 
 .content-description {
     font-size: 1rem;
     line-height: normal;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: none;
 }
 
@@ -372,7 +383,7 @@ body::-webkit-scrollbar {
 
 .psuedo-list {
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 300;
   color: #fff;
   margin-bottom: 0.25rem;
   font-size: 0.8rem;
@@ -391,7 +402,7 @@ body::-webkit-scrollbar {
 
 .psuedo-list-no-highlight {
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 300;
   color: #fff;
   margin-bottom: 0.25rem;
   font-size: 0.8rem;
@@ -411,27 +422,31 @@ body::-webkit-scrollbar {
 }
 
 .thin-weight {
-    font-weight: 100 !important;
-}
-
-.regular-weight {
     font-weight: 200 !important;
 }
 
-.bold-weight {
+.regular-weight {
     font-weight: 300 !important;
 }
 
-.extra-bold-weight {
+.bold-weight {
     font-weight: 400 !important;
+}
+
+.extra-bold-weight {
+    font-weight: 500 !important;
 }
 
 .borrowed {
     text-decoration: line-through;
 }
 
+.italic {
+    font-style: italic;
+}
+
 p > a {
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -455,7 +470,7 @@ p > a:hover {
     margin-block-start: 0rem;
     margin-block-end: 0rem;
     margin-bottom: 0.25rem;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: lowercase;
     padding-bottom: 0.25rem;
 }
@@ -478,7 +493,7 @@ p > a:hover {
     margin-bottom: 0.25rem;
     margin-block-start: 0rem;
     margin-block-end: 0rem;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: none;
 }
 
@@ -489,7 +504,7 @@ p > a:hover {
     margin-bottom: 0.25rem;
     margin-block-start: 0rem;
     margin-block-end: 0rem;
-    font-weight: 100;
+    font-weight: 200;
     text-transform: none;
 }
 
@@ -520,7 +535,7 @@ p > a:hover {
     font-size: 3rem;
     line-height: normal;
     margin-top: 0rem;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: lowercase;
 }
 
@@ -528,7 +543,7 @@ p > a:hover {
     color: #fff;
     text-decoration: none;
     text-decoration-thickness: 0.075rem;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 3rem;
     line-height: normal;
 }
@@ -590,7 +605,7 @@ p > a:hover {
   font-size: 3rem;
   line-height: normal;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff;
 }
 
@@ -613,7 +628,7 @@ p > a:hover {
 .corner-nav > a {
   text-decoration: none;
   color: #fff;
-  font-weight: 400;
+  font-weight: 500;
   background-color: transparent;
   text-transform: lowercase;
 }
@@ -621,7 +636,7 @@ p > a:hover {
 .corner-nav {
   text-decoration: none;
   color: #fff;
-  font-weight: 400;
+  font-weight: 500;
   background-color: transparent;
   text-transform: lowercase;
 }
@@ -653,7 +668,7 @@ p > a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -55%);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 50rem;
     color: #000;
     text-decoration: none;
@@ -748,7 +763,7 @@ p > a:hover {
     color: #fff;
     text-decoration: none;
     text-decoration-thickness: 0.075rem;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.5rem;
     line-height: normal;
     }   
@@ -767,7 +782,7 @@ p > a:hover {
         text-decoration: none;
         color: #fff;
         background-color: #000;
-        font-weight: 400;
+        font-weight: 500;
     }
 }
 

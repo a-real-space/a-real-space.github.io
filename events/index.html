@@ -36,21 +36,21 @@
           {% assign i = 0 %}
           {% for event in sorted %}
             {% if event.rsvp-link and event.display-page == false %}
-            <div class="col-33 col-float-left project-grid-cell col-content" id="{{event.id}}">
+            <div class="col-25 col-float-left project-grid-cell col-content" id="{{event.id}}">
               <a href="{{event.rsvp-link}}" target="_blank"><img class="block" src="{{site.baseurl}}{{event.thumbnail}}"></a>
               <p class="project-title"><a href="{{event.rsvp-link}}" target="_blank">{{event.title}} </a></p>
               <p class="project-description">{{event.description}}</p>
               <p class="project-sub-description">{{event.display-date}}</p>
             </div>
             {% elsif event.display-page == true %}
-            <div class="col-33 col-float-left project-grid-cell col-content" id="{{event.id}}">
+            <div class="col-25 col-float-left project-grid-cell col-content" id="{{event.id}}">
               <a href="{{event.url}}"><img class="block" src="{{site.baseurl}}{{event.thumbnail}}"></a>
               <p class="project-title"><a href="{{event.url}}">{{event.title}} </a></p>
               <p class="project-description">{{event.description}}</p>
               <p class="project-sub-description">{{event.display-date}}</p>
             </div>
             {% else %}
-            <div class="col-33 col-float-left project-grid-cell col-content" id="{{event.id}}">
+            <div class="col-25 col-float-left project-grid-cell col-content" id="{{event.id}}">
               <img class="block" src="{{site.baseurl}}{{event.thumbnail}}">
               <p class="project-title">{{event.title}}</p>
               <p class="project-description">{{event.description}}</p>
