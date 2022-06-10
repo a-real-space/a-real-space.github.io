@@ -158,25 +158,25 @@ body::-webkit-scrollbar {
 }
 
 .padding-side {
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .padding-side-xl {
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .padding-right {
-    padding-right: 1.25rem;
+    padding-right: 15px;
 }
 
 .padding-left {
-    padding-left: 1.25rem;
+    padding-left: 15px;
 }
 
 .padding-top {
-    padding-top: 1rem;
+    padding-top: 5px;
 }
 
 .margin-top {
@@ -260,7 +260,7 @@ body::-webkit-scrollbar {
     text-align: left;
     font-size: 1.2rem;
     line-height: normal;
-    margin-bottom: 1.4rem;
+    margin-bottom: 10px;
     font-weight: 300;
 }
 
@@ -335,7 +335,7 @@ body::-webkit-scrollbar {
     text-align: center;
     font-size: 1.2rem;
     line-height: normal;
-    margin-bottom: 1.5rem;
+    margin-bottom: 15px;
     font-weight: 300;
     text-transform: lowercase;
 }
@@ -344,7 +344,7 @@ body::-webkit-scrollbar {
     text-align: center;
     font-size: 1.2rem;
     line-height: normal;
-    margin-bottom: 1.5rem;
+    margin-bottom: 15px;
     font-weight: 200;
     text-transform: lowercase;
 }
@@ -365,7 +365,7 @@ body::-webkit-scrollbar {
 .content-title {
     font-size: 2rem;
     line-height: normal;
-    margin-bottom: 0.25rem;
+    margin-bottom: 5px;
     font-weight: 400;
     text-transform: lowercase;
 }
@@ -385,7 +385,7 @@ body::-webkit-scrollbar {
   text-decoration: none;
   font-weight: 300;
   color: #fff;
-  margin-bottom: 0.25rem;
+  margin-bottom: 5px;
   font-size: 0.8rem;
   line-height: normal;
 }
@@ -404,7 +404,7 @@ body::-webkit-scrollbar {
   text-decoration: none;
   font-weight: 300;
   color: #fff;
-  margin-bottom: 0.25rem;
+  margin-bottom: 5px;
   font-size: 0.8rem;
   line-height: normal;
 }
@@ -562,8 +562,8 @@ p > a:hover {
 .corner-nav-br {
   overflow: hidden;
   position: fixed;
-  bottom: 1.25rem;
-  right: 1.25rem;
+  bottom: 15px;
+  right: 15px;
   font-size: 1rem;
   line-height: normal;
 }
@@ -571,8 +571,8 @@ p > a:hover {
 .corner-nav-bl {
   overflow: hidden;
   position: fixed;
-  bottom: 1.25rem;
-  left: 1.25rem;
+  bottom: 15px;
+  left: 15px;
   font-size: 1rem;
   line-height: normal;
 }
@@ -580,8 +580,8 @@ p > a:hover {
 .corner-nav-tl {
   overflow: hidden;
   position: fixed;
-  top: 1.25rem;
-  left: 1.25rem;
+  top: 15px;
+  left: 15px;
   font-size: 1rem;
   line-height: normal;
 }
@@ -589,7 +589,7 @@ p > a:hover {
 .corner-nav-tc-title {
   overflow: hidden;
   position: fixed;
-  top: 1.25rem;
+  top: 15px;
   left: 50%;
   transform: translate(-50%, 0);
   font-size: 1rem;
@@ -600,8 +600,8 @@ p > a:hover {
 .corner-nav-tr-x {
   overflow: hidden;
   position: fixed;
-  top: 0.5rem;
-  right: 1.25rem;
+  top: 5px;
+  right: 15px;
   font-size: 3rem;
   line-height: normal;
   text-decoration: none;
@@ -618,7 +618,7 @@ p > a:hover {
   overflow: hidden;
   position: fixed;
   top: 0.5rem;
-  left: 1.25rem;
+  left: 15px;
   font-size: 2.2rem;
   line-height: normal;
   text-decoration: none;
