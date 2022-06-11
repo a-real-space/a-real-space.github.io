@@ -206,10 +206,6 @@ body::-webkit-scrollbar {
 
 
 
-
-
-
-
 /* CONTENT STYLING */
 .col-content {
 
@@ -463,9 +459,6 @@ p > a:hover {
 
 
 
-
-
-
 /* PROJECT GRID */
 
 .project-title {
@@ -529,8 +522,6 @@ p > a:hover {
     height: auto;
     margin-bottom: 0.5rem;
 }
-
-
 
 
 
@@ -659,7 +650,6 @@ p > a:hover {
 
 
 
-
 /* 404 - ERROR PAGE */
 .text-wrap {
     position: relative;
@@ -683,16 +673,6 @@ p > a:hover {
     color: #fff;
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
