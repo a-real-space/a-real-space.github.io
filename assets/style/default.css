@@ -738,19 +738,19 @@ p > a:hover {
         width: 100%;
     }
 
-  .p-nav-text {
+    .p-nav-text {
         font-size: 1.5rem;
         line-height: normal;
         margin-top: 0rem;
     }
 
-.highlight {
-    color: #fff;
-    text-decoration: none;
-    text-decoration-thickness: 0.075rem;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: normal;
+    .highlight {
+        color: #fff;
+        text-decoration: none;
+        text-decoration-thickness: 0.075rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: normal;
     }   
 
     .corner-nav-br {
